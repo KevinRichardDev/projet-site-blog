@@ -57,14 +57,16 @@ body {
 
 .main {
   float: left;
-  height: 200px;
-  background: grey;
+  background: #FFF;
   width: calc(100% - 375px);
 }
 
 .sidebar {
   float: right;
-  height: 200px;
-  background: lightgrey;
+  background: #FBFBFB;
   width: 375px;
+}
+
+.footer {
+  clear: both;
 }
