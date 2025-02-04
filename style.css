@@ -43,6 +43,7 @@ body {
 .social a {
   padding: 0 12px;
   opacity: 0.5;
+  transition: .3s;
 }
 
 .social a:hover {
@@ -52,4 +53,18 @@ body {
 .banniere {
   height: 427px;
   background: no-repeat center center / cover url("img/header.jpg") ;
+}
+
+.main {
+  float: left;
+  height: 200px;
+  background: grey;
+  width: calc(100% - 375px);
+}
+
+.sidebar {
+  float: right;
+  height: 200px;
+  background: lightgrey;
+  width: 375px;
 }
