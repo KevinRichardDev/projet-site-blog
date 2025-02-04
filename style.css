@@ -69,6 +69,7 @@ body {
   background: #FBFBFB;
   width: 375px;
   padding: 40px;
+  font-size: 17px;
 }
 
 .sidebar-title {
@@ -81,20 +82,23 @@ body {
   margin-top: 0;
 }
 
-.sidebar a{
+.sidebar a {
   display: inline-block;
   color: #9F9F9F;
   text-decoration: none;
 }
 
-.sidebar a:hover{
+.sidebar a:hover {
   transform: scale(1.2);
   transition: .3s;
   color: #000;
 }
 
-.sidebar li {
+.sidebar ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+  line-height: 2.3;
 }
 
 .footer {
