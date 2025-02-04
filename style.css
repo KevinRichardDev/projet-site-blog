@@ -23,6 +23,14 @@ body{
   float: left;
 }
 
+.tobar nav a{
+  color: #9F9F9F;
+}
+
+.topbar nav a:hover{
+  color: #000;
+}
+
 .topbar .social{
   float: right;
 }
