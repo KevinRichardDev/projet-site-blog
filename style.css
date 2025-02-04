@@ -47,7 +47,10 @@ body {
 }
 
 .social a:hover {
+  display: inline-block;
   opacity: 1;
+  transform: scale(1.2);
+  transition: .3s;
 }
 
 .banniere {
