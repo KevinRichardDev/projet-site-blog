@@ -62,6 +62,9 @@ body {
   float: left;
   background: #FFF;
   width: calc(100% - 375px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
+  position: relative;
+  z-index: 2;
 }
 
 .sidebar {
@@ -70,6 +73,8 @@ body {
   width: 375px;
   padding: 40px;
   font-size: 17px;
+  position: relative;
+  z-index: 1;
 }
 
 .sidebar-title {
@@ -100,8 +105,15 @@ body {
   list-style-type: none;
 }
 
-.sidebar ul li {
+.sidebar li {
   padding: 6px 0;
+}
+
+.sidebar hr {
+  border:none;
+  background: #C4C4C4;
+  height: 1px;
+  margin: 50px 0;
 }
 
 .sidebar li:first-child {
