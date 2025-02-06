@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.87);
   font-family: "Montserrat", sans-serif;
@@ -127,11 +127,26 @@ body {
 .article-img {
   float: left;
   width: 308px;
+  margin-right: 25px;
 }
 
 .article-img img {
   width: 100%;
   height: auto;
+}
+
+.article-date {
+  font-weight: 300px;
+  color: rgba(0, 0, 0, .6);
+  margin-bottom: 5px;
+}
+
+.article-title {
+  font-size: 2.25rem;
+}
+
+.article {
+  overflow: hidden;
 }
 
 .footer {
