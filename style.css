@@ -124,6 +124,16 @@ body {
   padding-bottom: 0;
 }
 
+.article-img {
+  float: left;
+  width: 308px;
+}
+
+.article-img img {
+  width: 100%;
+  height: auto;
+}
+
 .footer {
   clear: both;
 }
