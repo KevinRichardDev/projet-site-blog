@@ -126,7 +126,9 @@ body, html {
 }
 
 .article-img {
-  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 308px;
   margin-right: 25px;
 }
@@ -150,7 +152,11 @@ body, html {
 }
 
 .article {
+  position: relative;
   overflow: hidden;
+  margin: 50px 0;
+  padding-left: 333px;
+  min-height: 203px;
 }
 
 .article a {
