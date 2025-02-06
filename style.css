@@ -9,6 +9,7 @@ body, html {
   line-height: 1.6;
   margin: 0;
   font-weight: 500;
+  background: #FBFBFB;
 }
 
 .topbar {
@@ -105,7 +106,7 @@ body, html {
 .sidebar ul {
   margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style: none;
 }
 
 .sidebar li {
@@ -138,10 +139,11 @@ body, html {
 .article-img img {
   width: 100%;
   height: auto;
+  margin: 0 10px;
 }
 
 .article-date {
-  font-weight: 300px;
+  font-weight: 300;
   color: rgba(0, 0, 0, .6);
   margin-bottom: 5px;
 }
@@ -153,9 +155,13 @@ body, html {
   margin: 0 0 15px 0;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
 .article {
   position: relative;
-  overflow: hidden;
   margin: 50px 0;
   padding-left: 333px;
   min-height: 203px;
